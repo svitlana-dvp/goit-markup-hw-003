@@ -43,11 +43,6 @@ address {
   margin: 0 auto;  
 }
 
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .accept {
     font-weight: 700;
     font-size: 18px;
@@ -65,17 +60,19 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
-.title-first {
-    font-weight: 700;
-    font-size: 56px; 
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 48px;
-    max-width: 496px;
+.page-header .container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
 }
 
 .text-nav {
@@ -84,6 +81,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
 }
 
 .text-nav .link {
@@ -99,6 +97,11 @@ address {
     color: #404bbf;
 }
 
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+
 .text-address {
     font-weight: 400;
     font-size: 16px;
@@ -109,12 +112,12 @@ address {
     }
 
 .text-address .link {
-        font-weight: 400;
-            font-size: 16px;
-            font-style: normal;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .text-address .link:hover,
@@ -131,6 +134,18 @@ address {
     padding-bottom: 292px;
 }
 
+.title-first {
+    font-weight: 700;
+    font-size: 56px; 
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 48px;
+    padding-right: 316px;
+    padding-left: 316px;
+} 
+
 .zone button {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -138,6 +153,12 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .zone .link:hover,
@@ -161,6 +182,13 @@ address {
 .content-text {
     padding-top: 120px;
     padding-bottom: 120px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.content-box {
+    width: calc((100% - 72px) / 4);
 }
 
 .text-box {
@@ -188,10 +216,16 @@ address {
 .weare {
     background-color: #f4f4fd;
     padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .team {
     margin-top: 72px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
 }
 
 .title-weare {
@@ -207,6 +241,9 @@ address {
 
 .list-weare {
     background-color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .title-paragraf {
@@ -230,6 +267,22 @@ address {
 
 .product-box {
     padding-top: 72px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.text-product-box {
+    padding: 32px 16px;
+}
+
+.product-list {
+    
+}
+
+.list-box {
+    flex-wrap: wrap;
 }
 
 .title-second {
