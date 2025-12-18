@@ -78,16 +78,6 @@ address {
     max-width: 496px;
 }
 
-.title-second {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .text-nav {
     font-weight: 500;
     font-size: 16px;
@@ -168,6 +158,15 @@ address {
   overflow: hidden;
 }
 
+.content-text {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.text-box {
+    padding: 32px 16px;
+}
+
 .team-title {
     font-weight: 500;
     font-size: 20px;
@@ -175,6 +174,7 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -187,6 +187,11 @@ address {
 
 .weare {
     background-color: #f4f4fd;
+    padding-top: 120px;
+}
+
+.team {
+    margin-top: 72px;
 }
 
 .title-weare {
@@ -197,6 +202,7 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0 auto;
 }
 
 .list-weare {
@@ -216,6 +222,25 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.product {
+    padding-top: 120px;
+}
+
+.product-box {
+    padding-top: 72px;
+}
+
+.title-second {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin: 0 auto;
 }
 
 .title-third {
