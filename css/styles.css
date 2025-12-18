@@ -9,21 +9,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 ul, ol {
+    list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
 img {
 	display: block;
-    max-width: 100%;
-}
-
-.container { 
-  max-width: 1440px; 
-  padding: 16px 8px;  
-  margin-bottom: 1px;  
-}
-
+    max-width: 100%;}
 
 body {
     font-family: Roboto, sans-serif;
@@ -37,6 +30,22 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.container { 
+  width: 1158px; 
+  padding-left: 15px;
+  padding-right: 15px;  
+  margin: 0 auto;  
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .accept {
@@ -65,6 +74,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .title-second {
@@ -125,6 +136,11 @@ a {
     background-color: #2e2f42;
 }
 
+.zone-wrapper {
+    padding-top: 188px;
+    padding-bottom: 292px;
+}
+
 .zone button {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -139,12 +155,17 @@ a {
     background-color: #404bbf;
 }
 
-.title-header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .team-title {
