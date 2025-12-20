@@ -131,11 +131,12 @@ address {
 
 .zone {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .zone-wrapper {
-    padding-top: 188px;
-    padding-bottom: 292px;
+    display: flex;
+    justify-content: center;
 }
 
 .title-first {
@@ -146,8 +147,7 @@ address {
     text-align: center;
     color: #ffffff;
     margin-bottom: 48px;
-    padding-right: 316px;
-    padding-left: 316px;
+    max-width: 496px;
 } 
 
 .zone button {
@@ -170,6 +170,10 @@ address {
     background-color: #404bbf;
 }
 
+.features {
+    padding: 120px 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -184,8 +188,6 @@ address {
 }
 
 .content-text {
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     justify-content: flex-start;
     gap: 24px;
@@ -219,14 +221,13 @@ address {
 
 .weare {
     background-color: #f4f4fd;
-    padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
+    padding: 120px 0;
 }
 
 .team {
     margin-top: 72px;
-    margin-bottom: 120px;
     display: flex;
     justify-content: flex-start;
     gap: 24px;
@@ -266,7 +267,7 @@ address {
 }
 
 .product {
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .product-box {
