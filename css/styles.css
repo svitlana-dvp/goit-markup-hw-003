@@ -63,12 +63,13 @@ address {
     margin-right: 76px;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header .container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-menu-list {
@@ -83,6 +84,7 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
+    padding: 24px 0;
 }
 
 .text-nav .link {
@@ -90,7 +92,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
 }
 
 .text-nav .link:hover, 
@@ -110,6 +112,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
     }
 
 .text-address .link {
