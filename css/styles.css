@@ -281,8 +281,6 @@ address {
 }
 
 .product-box {
-    padding-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
